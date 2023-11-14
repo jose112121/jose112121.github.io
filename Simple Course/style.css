@@ -1,0 +1,247 @@
+
+:root {
+    --primary : linear-gradient(to bottom right, #0E2D58, #0E2D58);
+    --secondary : #FFC2C0;
+    --text : #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: var(--primary);
+    font-family: Sora;
+    color: var(--text);
+
+}
+
+.container {
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1.8fr 1.2fr;
+    gap: 1rem;
+    
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.main-video, .video-playlist {
+    width: 100%;
+    height: 30rem;
+}
+
+.main-video .title {
+    margin-top: 1rem;
+}
+
+.video-playlist .title {
+    padding-left: 1rem;
+}
+
+.video-playlist > p {
+    padding: 1rem;
+    color: var(--secondary);
+}
+
+.video-playlist .videos{
+    height: 70%;
+    overflow-y: auto;
+}
+
+.video-playlist .videos::-webkit-scrollbar {
+    width: .4rem;
+    border-radius: .4rem;
+    background-color: #0005;
+}
+
+.video-playlist .videos::-webkit-scrollbar-thumb {
+    border-radius: .4rem;
+    background-color: #fff;
+}
+
+.video-playlist .videos .video {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 1rem;
+    margin-top: .1rem;
+    cursor: pointer;
+
+    border-radius: .5rem;
+}
+
+.video-playlist .videos .video:hover {
+    background-color: #0003;
+}
+
+.video-playlist .videos .video.active {
+    background-color: #0003;
+    color: var(--secondary);
+}
+
+.main-video video {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.video img {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    width: 1.5rem;
+    height: 1.5rem;
+    
+    filter: invert(100%);
+}
+
+.video-playlist .videos .video.active img {
+    filter: invert(100%) sepia(100%) saturate(2000%) hue-rotate(360deg);
+}
+
+.video p {
+   margin-left: 2.5rem;
+}
+
+.video h3 {
+    width: 23rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font: 100 1rem sans-serif;
+    padding: 0 .5rem;
+}
+
+/* -------------------------------------- */
+
+
+/*barra de navegacion*/
+
+/* Cambiamos el color de fondo de la barra de navegación */
+.navbar {
+    background: var(--neutral-black, linear-gradient(0deg, #0C2445 0%, #0C2445 100%), #0D1C33);
+    padding: 0px 80px;
+}
+
+/* Cambiamos el color del texto de los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: var(--neutral-white, #F2F7FC);
+    /* Link/Nav */
+    font-family: Sora;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 213.333% */
+}
+
+/* hover para barra menu de la barra */
+.nav-link:hover {
+    color: #E66BBA;
+}
+
+/* Estilos para el logotipo "CourseKit" */
+.navbar-brand {
+    color: var(--brand-primary, #FFC2C0);
+    font-family: Sora;
+    font-size: 17.49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 20.988px */
+
+}
+
+/* Estilos para el botón de sign up */
+.btn-outline-success {
+    border-radius: 100px;
+    background: var(--brand-primary, #FFC2C0);
+    color: var(--neutral-black, #0D1C33);
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+}
+
+/* Estilos para el botón de sign up al hacer hover */
+.btn-outline-success:hover {
+    background-color: var(--neutral-black, #0D1C33);
+    color: var(--brand-primary, #FFC2C0);
+    /* Cambia el color del texto al hacer hover */
+    border-color: var(--brand-primary, #FFC2C0);
+}
+
+
+/* pie de pagina */
+
+.mi-footer {
+    background: var(--neutral-black, linear-gradient(0deg, #0C2445 0%, #0C2445 100%), #0D1C33);
+    padding: 20px; /* Añade espaciado si es necesario */
+    text-align: center; /* Centra el contenido del footer */
+    
+}
+  
+
+
+.footer-texto {
+    color: var(--brand-primary, #FFC2C0);
+    font-family: Sora;
+    font-size: 38.515px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 46.218px */
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+  
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+  
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}

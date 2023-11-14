@@ -1,0 +1,1304 @@
+/*barra de navegacion*/
+
+/* Cambiamos el color de fondo de la barra de navegación */
+.navbar {
+    background: var(--neutral-black, linear-gradient(0deg, #0C2445 0%, #0C2445 100%), #0D1C33);
+    padding: 0px 80px;
+}
+
+.nvbt:hover{
+    color: #00fff2;
+
+}
+
+
+/* Cambiamos el color del texto de los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: var(--neutral-white, #F2F7FC);
+    /* Link/Nav */
+    font-family: Sora;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 213.333% */
+}
+
+/* hover para barra menu de la barra */
+.nav-link:hover {
+    color: #E66BBA;
+}
+
+/* Estilos para el logotipo "CourseKit" */
+.navbar-brand {
+    color: var(--brand-primary, #FFC2C0);
+    font-family: Sora;
+    font-size: 17.49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 20.988px */
+
+}
+
+/* Estilos para el botón de sign up */
+.btn-outline-success {
+    border-radius: 100px;
+    background: var(--brand-primary, #FFC2C0);
+    color: var(--neutral-black, #0D1C33);
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+}
+
+/* Estilos para el botón de sign up al hacer hover */
+.btn-outline-success:hover {
+    background-color: var(--neutral-black, #0D1C33);
+    color: var(--brand-primary, #FFC2C0);
+    /* Cambia el color del texto al hacer hover */
+    border-color: var(--brand-primary, #FFC2C0);
+}
+
+.hero {
+    background: var(--neutral-black, linear-gradient(0deg, #0C2445 0%, #0C2445 100%), #0D1C33);
+    margin: 0;
+    /* Elimina el margen exterior */
+    padding: 80px;
+    /* Elimina el relleno interior */
+    display: flex;
+    width: 100%;
+    /* Ancho del 100% para ocupar todo el ancho de la pantalla */
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.H6 {
+    width: 618px;
+    color: var(--neutral-white, #F2F7FC);
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 19.2px */
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+
+.hero-title {
+    width: 618px;
+    color: var(--neutral-white, #F2F7FC);
+    font-family: Sora;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 76.8px */
+}
+
+.hero-description {
+    width: 577px;
+    color: var(--neutral-white, #F2F7FC);
+    /* Text Medium / Desktop (300) */
+    font-family: Sora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    /* 30.8px */
+}
+
+
+/* Estilos iniciales de .primary-action-button */
+.primary-action-button {
+    border-radius: 100px;
+    background: var(--brand-primary, #FFC2C0);
+    transition: background-color 0.3s ease;
+    /* Agregamos una transición para el cambio de color */
+    padding: 8px 16px;
+    /* Ajusta el espaciado dentro del botón */
+}
+
+/* Estilos iniciales de .secondary-action-button */
+.secondary-action-button {
+    border-radius: 100px;
+    border: 2px solid var(--brand-primary, #FFC2C0);
+    background: var(--brand-transparent, rgba(255, 194, 192, 0.10));
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    /* Agregamos transiciones para el cambio de color y borde */
+    padding: 8px 16px;
+    /* Ajusta el espaciado dentro del botón */
+}
+
+/* Estilos de texto para ambos botones */
+.button-text {
+    text-align: center;
+    /* Button/Medium */
+    font-family: Sora;
+    font-size: 14px;
+    /* Reducimos el tamaño de fuente */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* Ajustamos el espaciado entre líneas */
+}
+
+/* Efecto hover para .primary-action-button */
+.primary-action-button:hover {
+    background-color: var(--neutral-black, #0D1C33);
+    color: var(--brand-primary, #FFC2C0);
+    /* Cambia el color del texto al hacer hover */
+}
+
+/* Efecto hover para .secondary-action-button */
+.secondary-action-button:hover {
+    background-color: var(--neutral-black, #0D1C33);
+    border-color: var(--neutral-black, #0D1C33);
+    color: var(--neutral-white, #F2F7FC);
+    /* Cambia el color del texto al hacer hover */
+}
+
+/*Ciruclo rosa gigante*/
+.position-absolute.bg-pink.rounded-circle.col-5 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(to top left, #FF007F, #FFF);
+    left: -80px;
+    bottom: -75px;
+}
+
+/*Ciruclos pequeños*/
+.div-personalizado {
+
+    width: 152px;
+    height: 136px;
+    top: 0px;
+    left: 553px;
+    opacity: 0.5;
+    /* Ajusta la opacidad según tu preferencia */
+    position: absolute;
+}
+
+
+/*----------------------------------*/
+
+/*segunda parte 2 summer sale*/
+
+
+
+.parte2 {
+    background: var(--neutral-black,
+            linear-gradient(to left, #0c2445, #0c2445),
+            linear-gradient(to left, #0d1c33, #0d1c33));
+
+    padding: 30px;
+}
+
+.container2 {
+    background: var(--neutral-black,
+            linear-gradient(to left, #0c2445, #0c2445),
+            linear-gradient(to left, #0d1c33, #0d1c33));
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.row2 {
+    background: var(--accent-accent-1, #e66bba);
+    border-radius: 16px;
+    padding: 64px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.icon-ragalo {
+    background: var(--accent-accent-2, #3b3086);
+    border-radius: 80px;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.h {
+    font-family: Sora;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.tex {
+    width: 577px;
+    color: var(--neutral-white, #F2F7FC);
+    /* Text Medium / Desktop (300) */
+    font-family: Sora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    /* 30.8px */
+}
+
+
+.btn {
+    background: var(--accent-accent-2, #3b3086);
+    border-radius: 100px;
+    padding: 6px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+/*---------------*/
+/*pate3*/
+
+.parte3 {
+    background: var(--neutral-black,
+            linear-gradient(to left, #0c2445, #0c2445),
+            linear-gradient(to left, #0d1c33, #0d1c33));
+
+    padding: 30px;
+}
+
+.h4 {
+    font-family: Sora;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.tex3 {
+    color: var(--neutral-white, #F2F7FC);
+    /* Text Medium / Desktop (300) */
+    font-family: Sora;
+    /* 30.8px */
+}
+
+/*----------------------------------*/
+
+/*segunda parte 4 */
+
+
+.parte4 {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.conteni {
+    position: relative;
+}
+
+.color {
+    background: var(--accent-accent-1, #e66bba);
+    border-radius: 50%;
+    width: 233px;
+    height: 233px;
+    position: absolute;
+    left: -63px;
+    bottom: -72.08px;
+}
+
+.overlay {
+    background: linear-gradient(47.18deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.2) 100%);
+    border-radius: 50%;
+    width: 233px;
+    height: 233px;
+    position: absolute;
+    left: 170px;
+    bottom: -305.08px;
+    transform-origin: 0 0;
+    transform: rotate(-180deg) scale(1, 1);
+}
+
+.dots {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    right: 109px;
+    top: -35px;
+}
+
+.overlay2 {
+    background: var(--brand-transparent, rgba(255, 194, 192, 0.1));
+    border-radius: 12px;
+    opacity: 0.30000001192092896;
+    position: absolute;
+    right: -0.5px;
+    left: 0px;
+    bottom: 0.08px;
+    top: -0.078125px;
+}
+
+.content-block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.Titulo-l {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--heading-medium-h-2-desktop-900, 700 44px/120% "Sora", sans-serif);
+    position: relative;
+    width: 618px;
+}
+
+.contenido-l {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-base-all-breakpoints-400, 400 18px/140% "Sora", sans-serif);
+    opacity: 0.8999999761581421;
+    position: relative;
+    width: 577px;
+}
+
+
+/*----------------------------------*/
+
+/*segunda parte  */
+
+.parte5 {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+/*----------------------------------*/
+/*segunda parte 6 */
+.parte6 {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+
+
+/*----------------------------------*/
+/*segunda parte 7 */
+.parte7 {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+/*----------------------------------*/
+/*segunda parte 8 */
+.parte8 {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.contenido-parte-ocho-titulo h3 {
+    font-family: Sora;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.conten {
+    display: flex;
+    /* Utiliza flexbox para alinear los elementos en línea */
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    gap: 10px;
+    /* Espaciado entre los elementos (puedes ajustarlo según tus necesidades) */
+}
+
+
+.button {
+    padding: 6px 0px 6px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+
+
+    background: var(--brand-transparent);
+    border-radius: 100px;
+    padding: 14px 20px 14px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.button:hover {
+    background: #1fe401;
+    color: #00fff2;
+}
+
+.dos {
+    padding: 6px 0px 6px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+
+    background: var(--brand-transparent);
+    border-radius: 100px;
+    padding: 14px 20px 14px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+/*----------------------------------*/
+/* section features  */
+
+/* Estilos para la sección "features" */
+.features {
+    background: var(--neutral-black, linear-gradient(0deg, #0C2445 0%, #0C2445 100%), #0D1C33);
+    display: flex;
+    width: 100%;
+    padding: 80px;
+    align-items: flex-start;
+    gap: 58px;
+}
+
+/* Estilos para el div con clase "p-1 bg-dark" */
+.features .p-1.bg-dark {
+    background: var(--neutral-black, linear-gradient(0deg, #0C2445 0%, #0C2445 100%), #0D1C33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* Ajusta el espacio interior según tus necesidades */
+}
+
+/* Estilos para el div con clase "col-xxl-11 row align-items-center d-flex" */
+.features .col-xxl-11.row.align-items-center.d-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+    justify-content: flex-start;
+    /* Alinea los elementos a la izquierda */
+}
+
+/* Estilos para el div con clase "position-relative col-xl-6 row" */
+.features .position-relative.col-xl-6.row {
+    height: 402px;
+    flex: 1 0 0;
+}
+
+
+
+/*estilo del circulo de gradado*/
+/* Estilos para el div con clase "left-0 position-absolute bg-white rounded-5 col-9" */
+.features .left-0.position-absolute.bg-white.rounded-5.col-9 {
+    width: 440px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 50% !important;
+    background: linear-gradient(47deg, #FFF 17.51%, rgba(255, 255, 255, 0.00) 85.78%);
+    overflow: hidden;
+    /* Añade esta propiedad para asegurarte de que el contenido se ajuste al círculo */
+
+
+}
+
+/* Estilos para el div con clase "position-absolute bg-purple rounded-5 col-9" */
+.features .position-absolute.bg-purple.rounded-5.col-9 {
+    width: 440px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 50% !important;
+    /* Cambia el valor a 50% para hacer que el segundo elemento sea un círculo */
+    background: linear-gradient(246deg, #7B3C9F 0%, rgba(123, 60, 159, 0.00) 100%);
+
+
+}
+
+/*estilo y posicion de la imagen*/
+/* Estilos para la imagen con clase "left-0 position-absolute rounded-top--5 rounded-bottom--5 col-12" */
+.features .left-0.position-absolute.rounded-top--5.rounded-bottom--5.col-12 {
+    width: 620px;
+    height: 402px;
+    flex-shrink: 0;
+    border-radius: 9999px;
+    z-index: 1;
+    /* Agregar un valor de z-index mayor para que esté en la parte superior */
+    top: 39px;
+}
+
+/* Estilos para el div con clase "left-0 position-absolute opacity-25 bg-danger-subtle bg-opacity-10 rounded-circle col-12" */
+.features .left-0.position-absolute.opacity-25.bg-danger-subtle .rounded-circle.col-12 {
+    width: 620px;
+    height: 402px;
+    flex-shrink: 0;
+    border-radius: 9999px;
+    z-index: 1;
+    /* Puedes ajustar el valor de z-index según sea necesario */
+}
+
+
+
+
+
+/* Estilos para el texto en la columna derecha */
+.features .col-xl-6.row p {
+    color: #fff;
+    /* Cambia el color de texto según tus preferencias */
+    margin: 0;
+    padding: 10px;
+    /* Ajusta el espaciado interno según tus necesidades */
+}
+
+/* Estilos para los elementos con clase "bg-purple" */
+.features .bg-purple {
+    border-radius: 80px;
+    background: var(--accent-accent-4, #7291F9);
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para los elementos con clase "opacity-100" */
+.features .opacity-100 {
+    opacity: 1 !important;
+    /* Asegura que la opacidad sea 1 */
+}
+
+/* Estilos para los elementos con clase "justify-content-center" */
+.features .justify-content-center {
+    justify-content: center;
+}
+
+/* Estilos para los elementos con clase "align-items-center" */
+.features .align-items-center {
+    align-items: center;
+}
+
+/* Estilos para los elementos con clase "d-flex" */
+.features .d-flex {
+    display: flex;
+}
+
+/*----------------------------------*/
+/*section quiote*/
+
+/*quiote*/
+
+.container-fon {
+    background: var(--neutral-black,
+            linear-gradient(to left, #0c2445, #0c2445),
+            linear-gradient(to left, #0d1c33, #0d1c33));
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.quote {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+    border-radius: 16px;
+    border-style: solid;
+    border-color: var(--accent-accent-4, #7291f9);
+    border-width: 2px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 800px;
+    position: relative;
+}
+
+.image {
+    background: var(--image-orange-beanie, undefined);
+    border-radius: 8px;
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.quote2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.text {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-large-desktop-300, 300 28px/140% "Sora", sans-serif);
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quotee {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 139px;
+    position: relative;
+}
+
+.sam-juliens {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-base-all-breakpoints-800, 700 18px/160% "Sora", sans-serif);
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sr-product-designer {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-small-all-breakpoints-300, 300 16px/140% "Sora", sans-serif);
+    opacity: 0.8999999761581421;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*parte 11*/
+
+.parte11 {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+}
+
+.contentp11 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.parte-titulo {
+    padding: 15px;
+}
+
+.textp11 {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: center;
+    font: var(--heading-medium-h-2-desktop-900, 700 44px/120% "Sora", sans-serif);
+    position: relative;
+    width: 618px;
+}
+
+.cuadro {
+    width: 400px;
+    height: 300px;
+    padding: 32px;
+    border-radius: 12px;
+    gap: 16px;
+    border: solid;
+    color: #0D1C33c1;
+
+}
+
+.estrellas {
+    display: flex;
+    /* Utiliza flexbox para alinear los elementos en línea */
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    gap: 10px;
+    /* Espaciado entre los elementos (puedes ajustarlo según tus necesidades) */
+
+}
+
+.tex1 {
+
+    color: var(--neutral-white, #f2f7fc);
+    padding: 10px;
+    font-family: Sora;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+._1-430-reviews {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: center;
+    font: var(--text-base-all-breakpoints-400, 400 18px/140% "Sora", sans-serif);
+    position: relative;
+    align-self: stretch;
+}
+
+.parte-inferior-izquierda {
+    display: flex;
+    /* Utiliza flexbox para alinear los cuadros en línea */
+    justify-content: space-around;
+    /* Distribuye los cuadros uniformemente en el espacio disponible */
+    gap: 5px;
+    /* Espacio entre los cuadros (ajusta según tus necesidades) */
+}
+
+.tmedio {
+    color: var(--neutral-white, #f2f7fc);
+    font-family: Sora;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+.tdmedio {
+    color: var(--neutral-white, #f2f7fc);
+    font-family: Sora;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+/*parte12 pagos*/
+
+.content-block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.pricing {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--heading-medium-h-2-desktop-900, 700 44px/120% "Sora", sans-serif);
+    position: relative;
+}
+
+.subscribe {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-base-all-breakpoints-400, 400 18px/140% "Sora", sans-serif);
+    opacity: 0.8999999761581421;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+
+/* boton de cambio doble
+.toggle {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+    border-radius: 12px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.active {
+    background: var(--neutral-black,
+            linear-gradient(to left, #0c2445, #0c2445),
+            linear-gradient(to left, #0d1c33, #0d1c33));
+    border-radius: 8px;
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.monthly {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-small-all-breakpoints-800, 700 16px/160% "Sora", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.active2 {
+    border-radius: 8px;
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.annually {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-small-all-breakpoints-800, 700 16px/160% "Sora", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+
+/*parte 13*/
+
+.price-card,
+.price-card * {
+    box-sizing: border-box;
+}
+
+.price-card {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--neutral-black, #0d1c33);
+    border-width: 1px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.item-header {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.item-name {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.small {
+    background: var(--accent-accent-1, #e66bba);
+    border-radius: 80px;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    overflow: visible;
+}
+
+.basic {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--heading-all-caps-h-6-desktop-900,
+            800 16px/120% "Sora",
+            sans-serif);
+    text-transform: uppercase;
+    position: relative;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+._28 {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--heading-large-h-1-desktop-900, 700 55px/120% "Sora", sans-serif);
+    position: relative;
+}
+
+.mo {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--heading-x-small-h-4-desktop-400,
+            700 28px/120% "Sora",
+            sans-serif);
+    position: relative;
+    width: 60px;
+    height: 46px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.or-280-annually {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-tiny-all-breakpoints-800, 700 14px/160% "Sora", sans-serif);
+    opacity: 0.8999999761581421;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.divider {
+    border-style: solid;
+    border-color: var(--neutral-white, #f2f7fc);
+    border-width: 1px 0 0 0;
+    opacity: 0.5;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 0px;
+    position: relative;
+}
+
+.comparison-item {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.interface-so-checkmark {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.subscription-feature {
+    color: var(--neutral-white, #f2f7fc);
+    text-align: left;
+    font: var(--text-base-all-breakpoints-400, 400 18px/140% "Sora", sans-serif);
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.frame3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.interface-close-lg {
+    opacity: 0.5;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.interface-close-lg2 {
+    opacity: 0.5;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.button.bt1 {
+    padding: 6px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+
+    color: var(--brand-primary, #ffc2c0);
+    text-align: center;
+    font: var(--button-medium, 700 16px/24px "Sora", sans-serif);
+    position: relative;
+}
+
+.button.bt1 {
+    background: rgba(255, 194, 192, 1);
+}
+
+.button.bt1:hover {
+    color: #ffffff;
+    background: rgb(255, 0, 0);
+}
+
+.parte12 {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+}
+
+.parte13 {
+    background: var(--neutral-neutral-1,
+            linear-gradient(to left, #0e2d58, #0e2d58),
+            linear-gradient(to left, #102542, #102542));
+}
+
+
+
+/* pie de pagina */
+
+.mi-footer {
+    background: var(--neutral-black, linear-gradient(0deg, #0C2445 0%, #0C2445 100%), #0D1C33);
+    padding: 20px;
+    /* Añade espaciado si es necesario */
+    text-align: center;
+    /* Centra el contenido del footer */
+
+}
+
+
+
+.footer-texto {
+    color: var(--brand-primary, #FFC2C0);
+    font-family: Sora;
+    font-size: 38.515px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 46.218px */
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}

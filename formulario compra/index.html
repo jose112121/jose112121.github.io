@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Compra - Estilo OpenAI</title>
+    <!-- Agrega aquí los estilos de OpenAI o utiliza una hoja de estilo externa -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <center><h1>Formulario de Compra - Servicio de Suscripcion a Cursos</h1></center>
+    <form action="procesar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name "apellido" required><br>
+
+        <label for="correo">Correo Electronico:</label>
+        <input type="email" name="correo" required><br>
+
+        <label for="teléfono">Telefono:</label>
+        <input type="tel" name="telefono" required><br>
+
+        <label for="dirección">Direccion:</label>
+        <textarea name="direccion" rows="4" required></textarea><br>
+
+        <label for="fecha">Fecha del Webinar:</label>
+        <input type="date" name="fecha" required><br>
+
+        <input type="submit" value="Realizar Pago">
+    </form>
+</body>
+</html>
+
